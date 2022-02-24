@@ -1,0 +1,135 @@
+:root {
+  --pri: #79c2d0;
+  --sec: #bbe4e9;
+  --acc: #5585b5;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  border: 1px solid var(--acc);
+  height: 2rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+nav h1 {
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 0;
+  margin-left: 10px;
+  height: 2rem;
+  width: auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 2rem;
+}
+nav ul {
+  line-height: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+nav ul li {
+  color: black;
+  display: inline;
+}
+nav ul li:hover {
+  color: var(--acc);
+}
+
+.data {
+  width: 95%;
+  margin: 0.5rem auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  overflow:scroll;
+}
+.data table {
+  margin: 0.5rem auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.data table tr th {
+  text-transform: uppercase;
+  background-color: var(--sec);
+}
+.data table tr th,
+.data table tr td {
+  border: 1px solid var(--acc);
+  padding: 0.25rem;
+}
+.data table tr:nth-child(even) {
+  background-color: white;
+}
+.data table tr:nth-child(odd) {
+  background-color: rgba(187, 228, 233, 0.2);
+}
+
+.del,
+.edit {
+  margin: 0.1rem;
+  padding: 0.1rem 0.2rem;
+  border: 2px solid var(--acc);
+  border-radius: 4px;
+}
+
+.del {
+  color: red;
+  border-color: red;
+}
+.del:hover, .del:focus {
+  color: black;
+  border-color: black;
+}
+
+.edit {
+  color: var(--acc);
+  border-color: var(--acc);
+}
+.edit:hover, .edit:focus {
+  color: black;
+  border-color: black;
+}
+
+.btn-create {
+  color: black;
+  border-color: black;
+}
+.btn-create:hover, .btn-create:focus {
+  color: var(--acc);
+  border-color: var(--acc);
+}
+
+.form-create {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem auto;
+}
+.form-create h2 {
+  color: var(--pri);
+  text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.5px black;
+  margin-bottom: 0.5rem;
+}
+.form-create input:not([type=submit]) {
+  border-color: var(--acc);
+  padding: 2px;
+}
+.form-create input[type=submit] {
+  margin: 2px auto;
+  float: right;
+}

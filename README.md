@@ -29,4 +29,4 @@ If you discover a security vulnerability within Laravel, please make a Pull Requ
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](../LICENSE).
+The Laravel framework is open-sourced software licensed under the [MIT license](../main/LICENSE).

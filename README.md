@@ -1,5 +1,15 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+# <p align="center">ToDo-Laravel</p>
+
+- Simple Todo Project.
+- CRUD operation.
+- ORM Based.
+- Coming more:
+  - User Auth
+  - Session
+
+> It is more than a Todo Porject. As I am going to push another project in this repository also.Thank you.
 
 ## About Laravel
 

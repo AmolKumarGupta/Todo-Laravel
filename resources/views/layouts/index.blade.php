@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#eee">
 
   <title>todo</title>
-  <link rel="stylesheet" href="{{asset('css/style.css')}}">
+  <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
 </head>
 <body class="">
   <nav >

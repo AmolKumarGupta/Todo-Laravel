@@ -9,9 +9,11 @@
       <th>description</th>
       <th>Action</th>
     </tr>
+<?php $it=0; ?>
 @foreach($todo as $i)
+    <?php $it++; ?>
     <tr>
-      <td>{{ $i->id }}</td>
+      <td>{{ $it }}</td>
       <td>{{ $i->topic }}</td>
       <td>{{ $i->description }}</td>
       <td>

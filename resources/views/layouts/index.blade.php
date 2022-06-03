@@ -6,7 +6,7 @@
   <meta name="description" content="todo app to remember things">
   <meta name="theme-color" content="#eee">
 
-  <title>todo</title>
+  <title>Todo App</title>
   <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
 </head>
 <body class="">
